@@ -1,0 +1,116 @@
+Skerritt.blog Skerritt.blog Home Start Here YouTube Sign in Subscribe Skerritt.blog Esoteric Computer Science Knowledge from your favourite local rust girlie japanese My Magpie settings to play VNs on a bad GPU 07 Oct 2025 system design Designing Bit.ly Problem: Design a Tiny URL / Bit.ly competitor
+
+Given a long URL, create a short URL.
+
+Given a short URL, redirect to a long URL.
+
+Requirements
+
+ * Very high read, likely 80% of all links are the same 20% of links
+ * Not so much write
+ * Needs low latency
+ * High availabilitiy
+
+Flow 03 Oct 2025 3 min read How I Vibe Code I just vibe coded this:
+
+Statistics for reading JapaneseHi friends! I just released my first ever web-dev project! There’s a tool called Game Sentence Miner which uses OCR to grab text from your screen, and it lets you look that text up in a dictionary. GitHub - bpwhelan/GameSentenceMiner: 10 Sep 2025 2 min read japanese Statistics for reading Japanese Hi friends!
+
+I just released my first ever web-dev project!
+
+There's a tool called Game Sentence Miner which uses OCR to grab text from your screen, and it lets you look that text up in a dictionary.
+
+GitHub - bpwhelan/GameSentenceMiner: An All-in-One immersion toolkit for learning Languages 09 Sep 2025 4 min read system design 20 Popular System Design Interview Questions 1. Distributed Metrics Logging & Aggregation System
+Companies: Google, Facebook, Amazon, eBay, Datadog, Atlassian
+
+2. Distributed Stream Processing System (like Kafka)
+Companies: Amazon, Microsoft, Wise, Confluent
+
+3. Key-Value Store
+Companies: Apple, Google, Canva, Avalara, Rubrik, OpenDoor
+
+4. K Most Shared Articles in Time Windows (24h, 1h, 5m)
+Companies: LinkedIn, Facebook, 01 Sep 2025 1 min read japanese Japanese August 2025 I made this to track my characters read!
+
+My mining deck is nearly at 1k matures :) 31 Aug 2025 1 min read japanese How I'm Learning Japanese August 2025 My morning routine looks like:
+
+
+Anki
+
+I do 20 new cards a day.
+
+The cards are ones I have created from reading, like this:
+
+I only make cards if:
+
+ * It's within 5k frequency, so it's common to me
+ * OR I know all the Kanji in the 23 Aug 2025 7 min read japanese The Jazzcat Output Method Converstation I talked to Jazzcat about my retention and wanted to share it here 😄
+
+Jazzcat is a member in The Moeway Discord famous for having a very weird and unique approach to Anki.
+
+However, this approach has led them to obtain one of the highest ranks via vocab quizes on the 23 Aug 2025 7 min read japanese Difficulty Hell in Anki This was discovered by Para in The Moe Way Discord Server.
+
+For some people using Anki with FSRS you will have a very high Anki median difficulty:
+
+Something like 95% (before mine was 98%).
+
+This means cards mature super, super slowly. I was doing 30 new cards / day, and maturing 22 Aug 2025 3 min read grind75 746. Min Cost Climbing Stairs Problem
+
+You are given an integer array cost where cost[i] is the cost of ith step on a staircase. Once you pay the cost, you can either climb one or two steps.
+
+You can either start from the step with index 0, or the step with index 1.
+
+Return 21 Aug 2025 2 min read My experience with Amazon Kendra A couple months ago in a hackathon for Monzo I put together a lil team to complete the impossible:
+
+"Organise the world's Monzo's information and make it easily searchable"
+
+We ended up using Amazon Kendra, let's discuss my experience with it.
+
+
+The 21 Aug 2025 3 min read Introducing CyberFork - The community fork of CyberChef Click here to go to CyberFork
+
+CyberChefThe Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis
+
+CyberChef is dying.
+
+The last release was 5 months ago. There are over 100 pull requests and 300 GitHub issues.
+
+The most upvoted pull request is 4 years 21 Aug 2025 6 min read japanese Using a Japanese Input System (JIS) Keyboard with GB layout A JIS keyboard looks like this:
+
+Notice the 2 buttons next to the spacebar, and in the top left hand corner you have an input switcher button.
+
+This is how to use a GB keyboard in Romaji input on a JIS.
+
+ 1. Start regedit as admin
+ 2. Find your keyboard 21 Aug 2025 1 min read japanese The Best Beginner Kanji Dictionary Over in TheMoeWay user road_to_redemption shared their Kanji dictionary:
+
+It has everything you need from a Kanji dict:
+
+ * Meaning
+ * Frequency
+ * Top 3 common words with readings + translations
+ * Readings + distributions
+ * Components with keywords
+
+I really like this a lot, in particular the frequency + meaning + readings of the Kanji.
+
+Current 21 Aug 2025 2 min read japanese My current way to mine visual novels My main method of learning Japanese is by reading Visual Novels.
+
+These are kinda like a game and kinda like a novel.
+
+To give you a rundown:
+
+ * Every bit of text is spelt out on the screen
+ * It is usually fully voiced by Japanese natives
+ * The game does not continue 13 Aug 2025 4 min read cybersecurity Acing the World's Hardest Cyber Security Exam with 3 Days of Study I passed the world's hardest cybersecurity exam with only 3 days of study.
+
+
+What exam was it?
+
+CISSP (Certified Information Systems Security Professional)
+
+
+Why is it so hard
+
+ 1. The exam covers 8 domains.
+
+The CISSP is described as a mile-wide, inch-deep.

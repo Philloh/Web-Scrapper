@@ -1,0 +1,1736 @@
+<html lang="en"><head>
+
+    <title>Skerritt.blog</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preload" as="style" href="https://skerritt.blog/assets/built/screen.css?v=d8385aafbd">
+    <link rel="preload" as="script" href="https://skerritt.blog/assets/built/casper.js?v=d8385aafbd">
+
+    <link rel="stylesheet" type="text/css" href="https://skerritt.blog/assets/built/screen.css?v=d8385aafbd">
+
+    <meta name="description" content="Esoteric Computer Science Knowledge from your favourite local rust girlie">
+    <link rel="canonical" href="https://skerritt.blog/">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    <link rel="next" href="https://skerritt.blog/page/2/">
+    
+    <meta property="og:site_name" content="Skerritt.blog">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Skerritt.blog">
+    <meta property="og:description" content="Esoteric Computer Science Knowledge from your favourite local rust girlie">
+    <meta property="og:url" content="https://skerritt.blog/">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1513407030348-c983a97b98d8?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8c2VhcmNofDd8fHRva3lvfGVufDB8fHx8MTY4NjUxMjc1NXww&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=2000">
+    <meta property="article:publisher" content="https://www.facebook.com/ghost">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Skerritt.blog">
+    <meta name="twitter:description" content="Esoteric Computer Science Knowledge from your favourite local rust girlie">
+    <meta name="twitter:url" content="https://skerritt.blog/">
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1513407030348-c983a97b98d8?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8c2VhcmNofDd8fHRva3lvfGVufDB8fHx8MTY4NjUxMjc1NXww&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=2000">
+    <meta name="twitter:site" content="@ghost">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="799">
+    
+    <script src="https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202510090101/show_ads_impl_fy2021.js"></script><script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Skerritt.blog",
+        "url": "https://skerritt.blog/",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://skerritt.blog/favicon.ico",
+            "width": 48,
+            "height": 48
+        }
+    },
+    "url": "https://skerritt.blog/",
+    "name": "Skerritt.blog",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1513407030348-c983a97b98d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDd8fHRva3lvfGVufDB8fHx8MTY4NjUxMjc1NXww&ixlib=rb-4.0.3&q=80&w=2000",
+        "width": 1200,
+        "height": 799
+    },
+    "mainEntityOfPage": "https://skerritt.blog/",
+    "description": "Esoteric Computer Science Knowledge from your favourite local rust girlie"
+}
+    </script>
+
+    <meta name="generator" content="Ghost 6.3">
+    <link rel="alternate" type="application/rss+xml" title="Skerritt.blog" href="https://skerritt.blog/rss/">
+    <script defer="" src="https://cdn.jsdelivr.net/ghost/portal@~2.55/umd/portal.min.js" data-i18n="true" data-ghost="https://skerritt.blog/" data-key="4f7ec4795cd01ca68517bb164b" data-api="https://skerritt-blog.ghost.io/ghost/api/content/" data-locale="en" data-members-signin-otc="false" data-members-signin-otc-alpha="false" crossorigin="anonymous"></script><style id="gh-members-styles">.gh-post-upgrade-cta-content,
+.gh-post-upgrade-cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    width: 100%;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.gh-post-upgrade-cta-content {
+    border-radius: 8px;
+    padding: 40px 4vw;
+}
+
+.gh-post-upgrade-cta h2 {
+    color: #ffffff;
+    font-size: 28px;
+    letter-spacing: -0.2px;
+    margin: 0;
+    padding: 0;
+}
+
+.gh-post-upgrade-cta p {
+    margin: 20px 0 0;
+    padding: 0;
+}
+
+.gh-post-upgrade-cta small {
+    font-size: 16px;
+    letter-spacing: -0.2px;
+}
+
+.gh-post-upgrade-cta a {
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: 500;
+    box-shadow: none;
+    text-decoration: underline;
+}
+
+.gh-post-upgrade-cta a:hover {
+    color: #ffffff;
+    opacity: 0.8;
+    box-shadow: none;
+    text-decoration: underline;
+}
+
+.gh-post-upgrade-cta a.gh-btn {
+    display: block;
+    background: #ffffff;
+    text-decoration: none;
+    margin: 28px 0 0;
+    padding: 8px 18px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.gh-post-upgrade-cta a.gh-btn:hover {
+    opacity: 0.92;
+}</style>
+    <script defer="" src="https://cdn.jsdelivr.net/ghost/sodo-search@~1.8/umd/sodo-search.min.js" data-key="4f7ec4795cd01ca68517bb164b" data-styles="https://cdn.jsdelivr.net/ghost/sodo-search@~1.8/umd/main.css" data-sodo-search="https://skerritt-blog.ghost.io/" data-locale="en" crossorigin="anonymous"></script>
+    
+    <link href="https://skerritt.blog/webmentions/receive/" rel="webmention">
+    <script defer="" src="/public/cards.min.js?v=d8385aafbd"></script>
+    <link rel="stylesheet" type="text/css" href="/public/cards.min.css?v=d8385aafbd">
+    <script defer="" src="/public/comment-counts.min.js?v=d8385aafbd" data-ghost-comments-counts-api="https://skerritt.blog/members/api/comments/counts/"></script>
+    <script defer="" src="/public/member-attribution.min.js?v=d8385aafbd"></script><style>:root {--ghost-accent-color: #d017d3;}</style>
+    <style>
+    table-layout: fixed !important
+	word-wrap: break-word !important
+</style>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.28.0/components/prism-core.min.js" integrity="sha512-9khQRAUBYEJDCDVP2yw3LRUQvjJ0Pjx0EShmaQjcHa6AXiOv6qHQu9lCAIR8O+/D8FtaCoJ2c0Tf9Xo7hYH01Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.28.0/plugins/autoloader/prism-autoloader.min.js" integrity="sha512-fTl/qcO1VgvKtOMApX2PdZzkziyr2stM65GYPLGuYMnuMm1z2JLJG6XVU7C/mR+E7xBUqCivykuhlzfqxXBXbg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script type="text/javascript" id="MathJax-script" async="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+window.MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  }
+};
+</script>
+
+<script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4204290842407309" crossorigin="anonymous" data-checked-head="true"></script>
+
+<script async="" defer="" src="https://neverhaveiever.skerritt.blog/latest.js"></script>
+<noscript><img src="https://neverhaveiever.skerritt.blog/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade" /></noscript>
+
+<script src="https://cdn.jsdelivr.net/npm/tocbot@4.21.0/dist/tocbot.min.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/tocbot@4.21.0/dist/tocbot.min.css" rel="stylesheet">
+<style>.gh-content{position:relative}.gh-toc>.toc-list{position:relative}.toc-list{overflow:hidden;list-style:none}@media (min-width:1300px){.gh-sidebar{position:absolute;top:0;bottom:0;margin-top:4vmin;grid-column:wide-start / main-start}.gh-toc{position:sticky;top:4vmin}li.toc-list-item{font-size:1.4rem}}.gh-toc .is-active-link::before{background-color:var(--ghost-accent-color)}a.toc-link{display:inline-flex;font-weight:400;height:100%;line-height:1.2em;padding:6px 0;text-decoration:none;transition:.4s ease;font-size:100%!important}li.toc-list-item{color:#738a94!important}a.toc-link:hover{color:#15171a!important}.is-collapsible a.is-active-link,a.is-active-link{color:#15171a!important;font-weight:500}@media (max-width:1400px){.gh-toc{background:#fff;border-radius:1em;box-shadow:0 10px 50px rgba(25,37,52,.14),0 2px 5px rgba(25,37,52,.03);padding:30px;width:100%}}</style>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.28.0/themes/prism-tomorrow.min.css" integrity="sha512-vswe+cgvic/XBoF1OcM/TeJ2FW0OofqAVdCZiEYkd6dwGXthvkSFWOoGGJgS2CW70VK5dQM5Oh+7ne47s74VTg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+<meta http-equiv="origin-trial" content="AlK2UR5SkAlj8jjdEc9p3F3xuFYlF6LYjAML3EOqw1g26eCwWPjdmecULvBH5MVPoqKYrOfPhYVL71xAXI1IBQoAAAB8eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="Amm8/NmvvQfhwCib6I7ZsmUxiSCfOxWxHayJwyU1r3gRIItzr7bNQid6O8ZYaE1GSQTa69WwhPC9flq/oYkRBwsAAACCeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="A9nrunKdU5m96PSN1XsSGr3qOP0lvPFUB2AiAylCDlN5DTl17uDFkpQuHj1AFtgWLxpLaiBZuhrtb2WOu7ofHwEAAACKeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiQUlQcm9tcHRBUElNdWx0aW1vZGFsSW5wdXQiLCJleHBpcnkiOjE3NzQzMTA0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A93bovR+QVXNx2/38qDbmeYYf1wdte9EO37K9eMq3r+541qo0byhYU899BhPB7Cv9QqD7wIbR1B6OAc9kEfYCA4AAACQeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiQUlQcm9tcHRBUElNdWx0aW1vZGFsSW5wdXQiLCJleHBpcnkiOjE3NzQzMTA0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A1S5fojrAunSDrFbD8OfGmFHdRFZymSM/1ss3G+NEttCLfHkXvlcF6LGLH8Mo5PakLO1sCASXU1/gQf6XGuTBgwAAACQeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiQUlQcm9tcHRBUElNdWx0aW1vZGFsSW5wdXQiLCJleHBpcnkiOjE3NzQzMTA0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><style type="text/css">.CtxtMenu_InfoClose {  top:.2em; right:.2em;}
+.CtxtMenu_InfoContent {  overflow:auto; text-align:left; font-size:80%;  padding:.4em .6em; border:1px inset; margin:1em 0px;  max-height:20em; max-width:30em; background-color:#EEEEEE;  white-space:normal;}
+.CtxtMenu_Info.CtxtMenu_MousePost {outline:none;}
+.CtxtMenu_Info {  position:fixed; left:50%; width:auto; text-align:center;  border:3px outset; padding:1em 2em; background-color:#DDDDDD;  color:black;  cursor:default; font-family:message-box; font-size:120%;  font-style:normal; text-indent:0; text-transform:none;  line-height:normal; letter-spacing:normal; word-spacing:normal;  word-wrap:normal; white-space:nowrap; float:none; z-index:201;  border-radius: 15px;                     /* Opera 10.5 and IE9 */  -webkit-border-radius:15px;               /* Safari and Chrome */  -moz-border-radius:15px;                  /* Firefox */  -khtml-border-radius:15px;                /* Konqueror */  box-shadow:0px 10px 20px #808080;         /* Opera 10.5 and IE9 */  -webkit-box-shadow:0px 10px 20px #808080; /* Safari 3 & Chrome */  -moz-box-shadow:0px 10px 20px #808080;    /* Forefox 3.5 */  -khtml-box-shadow:0px 10px 20px #808080;  /* Konqueror */  filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color="gray", Positive="true"); /* IE */}
+</style><style type="text/css">.CtxtMenu_MenuClose {  position:absolute;  cursor:pointer;  display:inline-block;  border:2px solid #AAA;  border-radius:18px;  -webkit-border-radius: 18px;             /* Safari and Chrome */  -moz-border-radius: 18px;                /* Firefox */  -khtml-border-radius: 18px;              /* Konqueror */  font-family: "Courier New", Courier;  font-size:24px;  color:#F0F0F0}
+.CtxtMenu_MenuClose span {  display:block; background-color:#AAA; border:1.5px solid;  border-radius:18px;  -webkit-border-radius: 18px;             /* Safari and Chrome */  -moz-border-radius: 18px;                /* Firefox */  -khtml-border-radius: 18px;              /* Konqueror */  line-height:0;  padding:8px 0 6px     /* may need to be browser-specific */}
+.CtxtMenu_MenuClose:hover {  color:white!important;  border:2px solid #CCC!important}
+.CtxtMenu_MenuClose:hover span {  background-color:#CCC!important}
+.CtxtMenu_MenuClose:hover:focus {  outline:none}
+</style><style type="text/css">.CtxtMenu_Menu {  position:absolute;  background-color:white;  color:black;  width:auto; padding:5px 0px;  border:1px solid #CCCCCC; margin:0; cursor:default;  font: menu; text-align:left; text-indent:0; text-transform:none;  line-height:normal; letter-spacing:normal; word-spacing:normal;  word-wrap:normal; white-space:nowrap; float:none; z-index:201;  border-radius: 5px;                     /* Opera 10.5 and IE9 */  -webkit-border-radius: 5px;             /* Safari and Chrome */  -moz-border-radius: 5px;                /* Firefox */  -khtml-border-radius: 5px;              /* Konqueror */  box-shadow:0px 10px 20px #808080;         /* Opera 10.5 and IE9 */  -webkit-box-shadow:0px 10px 20px #808080; /* Safari 3 & Chrome */  -moz-box-shadow:0px 10px 20px #808080;    /* Forefox 3.5 */  -khtml-box-shadow:0px 10px 20px #808080;  /* Konqueror */}
+.CtxtMenu_MenuItem {  padding: 1px 2em;  background:transparent;}
+.CtxtMenu_MenuArrow {  position:absolute; right:.5em; padding-top:.25em; color:#666666;  font-family: null; font-size: .75em}
+.CtxtMenu_MenuActive .CtxtMenu_MenuArrow {color:white}
+.CtxtMenu_MenuArrow.CtxtMenu_RTL {left:.5em; right:auto}
+.CtxtMenu_MenuCheck {  position:absolute; left:.7em;  font-family: null}
+.CtxtMenu_MenuCheck.CtxtMenu_RTL { right:.7em; left:auto }
+.CtxtMenu_MenuRadioCheck {  position:absolute; left: .7em;}
+.CtxtMenu_MenuRadioCheck.CtxtMenu_RTL {  right: .7em; left:auto}
+.CtxtMenu_MenuInputBox {  padding-left: 1em; right:.5em; color:#666666;  font-family: null;}
+.CtxtMenu_MenuInputBox.CtxtMenu_RTL {  left: .1em;}
+.CtxtMenu_MenuComboBox {  left:.1em; padding-bottom:.5em;}
+.CtxtMenu_MenuSlider {  left: .1em;}
+.CtxtMenu_SliderValue {  position:absolute; right:.1em; padding-top:.25em; color:#333333;  font-size: .75em}
+.CtxtMenu_SliderBar {  outline: none; background: #d3d3d3}
+.CtxtMenu_MenuLabel {  padding: 1px 2em 3px 1.33em;  font-style:italic}
+.CtxtMenu_MenuRule {  border-top: 1px solid #DDDDDD;  margin: 4px 3px;}
+.CtxtMenu_MenuDisabled {  color:GrayText}
+.CtxtMenu_MenuActive {  background-color: #606872;  color: white;}
+.CtxtMenu_MenuDisabled:focus {  background-color: #E8E8E8}
+.CtxtMenu_MenuLabel:focus {  background-color: #E8E8E8}
+.CtxtMenu_ContextMenu:focus {  outline:none}
+.CtxtMenu_ContextMenu .CtxtMenu_MenuItem:focus {  outline:none}
+.CtxtMenu_SelectionMenu {  position:relative; float:left;  border-bottom: none; -webkit-box-shadow:none; -webkit-border-radius:0px; }
+.CtxtMenu_SelectionItem {  padding-right: 1em;}
+.CtxtMenu_Selection {  right: 40%; width:50%; }
+.CtxtMenu_SelectionBox {  padding: 0em; max-height:20em; max-width: none;  background-color:#FFFFFF;}
+.CtxtMenu_SelectionDivider {  clear: both; border-top: 2px solid #000000;}
+.CtxtMenu_Menu .CtxtMenu_MenuClose {  top:-10px; left:-10px}
+</style><style id="MJX-CHTML-styles">
+mjx-container[jax="CHTML"] {
+  line-height: 0;
+}
+
+mjx-container [space="1"] {
+  margin-left: .111em;
+}
+
+mjx-container [space="2"] {
+  margin-left: .167em;
+}
+
+mjx-container [space="3"] {
+  margin-left: .222em;
+}
+
+mjx-container [space="4"] {
+  margin-left: .278em;
+}
+
+mjx-container [space="5"] {
+  margin-left: .333em;
+}
+
+mjx-container [rspace="1"] {
+  margin-right: .111em;
+}
+
+mjx-container [rspace="2"] {
+  margin-right: .167em;
+}
+
+mjx-container [rspace="3"] {
+  margin-right: .222em;
+}
+
+mjx-container [rspace="4"] {
+  margin-right: .278em;
+}
+
+mjx-container [rspace="5"] {
+  margin-right: .333em;
+}
+
+mjx-container [size="s"] {
+  font-size: 70.7%;
+}
+
+mjx-container [size="ss"] {
+  font-size: 50%;
+}
+
+mjx-container [size="Tn"] {
+  font-size: 60%;
+}
+
+mjx-container [size="sm"] {
+  font-size: 85%;
+}
+
+mjx-container [size="lg"] {
+  font-size: 120%;
+}
+
+mjx-container [size="Lg"] {
+  font-size: 144%;
+}
+
+mjx-container [size="LG"] {
+  font-size: 173%;
+}
+
+mjx-container [size="hg"] {
+  font-size: 207%;
+}
+
+mjx-container [size="HG"] {
+  font-size: 249%;
+}
+
+mjx-container [width="full"] {
+  width: 100%;
+}
+
+mjx-box {
+  display: inline-block;
+}
+
+mjx-block {
+  display: block;
+}
+
+mjx-itable {
+  display: inline-table;
+}
+
+mjx-row {
+  display: table-row;
+}
+
+mjx-row > * {
+  display: table-cell;
+}
+
+mjx-mtext {
+  display: inline-block;
+}
+
+mjx-mstyle {
+  display: inline-block;
+}
+
+mjx-merror {
+  display: inline-block;
+  color: red;
+  background-color: yellow;
+}
+
+mjx-mphantom {
+  visibility: hidden;
+}
+
+_::-webkit-full-page-media, _:future, :root mjx-container {
+  will-change: opacity;
+}
+
+mjx-assistive-mml {
+  position: absolute !important;
+  top: 0px;
+  left: 0px;
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 1px 0px 0px 0px !important;
+  border: 0px !important;
+  display: block !important;
+  width: auto !important;
+  overflow: hidden !important;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+mjx-assistive-mml[display="block"] {
+  width: 100% !important;
+}
+
+mjx-c::before {
+  display: block;
+  width: 0;
+}
+
+.MJX-TEX {
+  font-family: MJXZERO, MJXTEX;
+}
+
+.TEX-B {
+  font-family: MJXZERO, MJXTEX-B;
+}
+
+.TEX-I {
+  font-family: MJXZERO, MJXTEX-I;
+}
+
+.TEX-MI {
+  font-family: MJXZERO, MJXTEX-MI;
+}
+
+.TEX-BI {
+  font-family: MJXZERO, MJXTEX-BI;
+}
+
+.TEX-S1 {
+  font-family: MJXZERO, MJXTEX-S1;
+}
+
+.TEX-S2 {
+  font-family: MJXZERO, MJXTEX-S2;
+}
+
+.TEX-S3 {
+  font-family: MJXZERO, MJXTEX-S3;
+}
+
+.TEX-S4 {
+  font-family: MJXZERO, MJXTEX-S4;
+}
+
+.TEX-A {
+  font-family: MJXZERO, MJXTEX-A;
+}
+
+.TEX-C {
+  font-family: MJXZERO, MJXTEX-C;
+}
+
+.TEX-CB {
+  font-family: MJXZERO, MJXTEX-CB;
+}
+
+.TEX-FR {
+  font-family: MJXZERO, MJXTEX-FR;
+}
+
+.TEX-FRB {
+  font-family: MJXZERO, MJXTEX-FRB;
+}
+
+.TEX-SS {
+  font-family: MJXZERO, MJXTEX-SS;
+}
+
+.TEX-SSB {
+  font-family: MJXZERO, MJXTEX-SSB;
+}
+
+.TEX-SSI {
+  font-family: MJXZERO, MJXTEX-SSI;
+}
+
+.TEX-SC {
+  font-family: MJXZERO, MJXTEX-SC;
+}
+
+.TEX-T {
+  font-family: MJXZERO, MJXTEX-T;
+}
+
+.TEX-V {
+  font-family: MJXZERO, MJXTEX-V;
+}
+
+.TEX-VB {
+  font-family: MJXZERO, MJXTEX-VB;
+}
+
+mjx-stretchy-v mjx-c, mjx-stretchy-h mjx-c {
+  font-family: MJXZERO, MJXTEX-S1, MJXTEX-S4, MJXTEX, MJXTEX-A ! important;
+}
+
+@font-face /* 0 */ {
+  font-family: MJXZERO;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Zero.woff") format("woff");
+}
+
+@font-face /* 1 */ {
+  font-family: MJXTEX;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Main-Regular.woff") format("woff");
+}
+
+@font-face /* 2 */ {
+  font-family: MJXTEX-B;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Main-Bold.woff") format("woff");
+}
+
+@font-face /* 3 */ {
+  font-family: MJXTEX-I;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Math-Italic.woff") format("woff");
+}
+
+@font-face /* 4 */ {
+  font-family: MJXTEX-MI;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Main-Italic.woff") format("woff");
+}
+
+@font-face /* 5 */ {
+  font-family: MJXTEX-BI;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Math-BoldItalic.woff") format("woff");
+}
+
+@font-face /* 6 */ {
+  font-family: MJXTEX-S1;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Size1-Regular.woff") format("woff");
+}
+
+@font-face /* 7 */ {
+  font-family: MJXTEX-S2;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Size2-Regular.woff") format("woff");
+}
+
+@font-face /* 8 */ {
+  font-family: MJXTEX-S3;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Size3-Regular.woff") format("woff");
+}
+
+@font-face /* 9 */ {
+  font-family: MJXTEX-S4;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Size4-Regular.woff") format("woff");
+}
+
+@font-face /* 10 */ {
+  font-family: MJXTEX-A;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_AMS-Regular.woff") format("woff");
+}
+
+@font-face /* 11 */ {
+  font-family: MJXTEX-C;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Calligraphic-Regular.woff") format("woff");
+}
+
+@font-face /* 12 */ {
+  font-family: MJXTEX-CB;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Calligraphic-Bold.woff") format("woff");
+}
+
+@font-face /* 13 */ {
+  font-family: MJXTEX-FR;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Fraktur-Regular.woff") format("woff");
+}
+
+@font-face /* 14 */ {
+  font-family: MJXTEX-FRB;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Fraktur-Bold.woff") format("woff");
+}
+
+@font-face /* 15 */ {
+  font-family: MJXTEX-SS;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Regular.woff") format("woff");
+}
+
+@font-face /* 16 */ {
+  font-family: MJXTEX-SSB;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Bold.woff") format("woff");
+}
+
+@font-face /* 17 */ {
+  font-family: MJXTEX-SSI;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Italic.woff") format("woff");
+}
+
+@font-face /* 18 */ {
+  font-family: MJXTEX-SC;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Script-Regular.woff") format("woff");
+}
+
+@font-face /* 19 */ {
+  font-family: MJXTEX-T;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Typewriter-Regular.woff") format("woff");
+}
+
+@font-face /* 20 */ {
+  font-family: MJXTEX-V;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Vector-Regular.woff") format("woff");
+}
+
+@font-face /* 21 */ {
+  font-family: MJXTEX-VB;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Vector-Bold.woff") format("woff");
+}
+</style><style>.App{text-align:center}.App-logo{height:40vmin;pointer-events:none}@media (prefers-reduced-motion: no-preference){.App-logo{animation:App-logo-spin infinite 20s linear}}.App-header{background-color:#282c34;min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;font-size:calc(10px + 2vmin);color:#fff}.App-link{color:#61dafb}@keyframes App-logo-spin{0%{transform:rotate(0)}to{transform:rotate(360deg)}}
+/*$vite$:1*/</style><style id="fit-vids-style">.fluid-width-video-container{flex-grow: 1;width:100%;}.fluid-width-video-wrapper{width:100%;position:relative;padding:0;}.fluid-width-video-wrapper iframe,.fluid-width-video-wrapper object,.fluid-width-video-wrapper embed {position:absolute;top:0;left:0;width:100%;height:100%;}</style></head>
+<body class="home-template is-head-left-logo has-cover is-dropdown-loaded">
+<div class="viewport">
+
+    <header id="gh-head" class="gh-head outer">
+        <div class="gh-head-inner inner">
+            <div class="gh-head-brand">
+                <a class="gh-head-logo no-image" href="https://skerritt.blog">
+                        Skerritt.blog
+                </a>
+                <button class="gh-search gh-icon-btn" aria-label="Search this site" data-ghost-search=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" width="20" height="20"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg></button>
+                <button class="gh-burger" aria-label="Main Menu"></button>
+            </div>
+
+            <nav class="gh-head-menu">
+                <ul class="nav">
+    <li class="nav-home nav-current"><a href="https://skerritt.blog/">Home</a></li>
+    <li class="nav-start-here"><a href="https://skerritt.blog/start-here/">Start Here</a></li>
+    <li class="nav-youtube"><a href="https://www.youtube.com/@AutumnSkerritt">YouTube</a></li>
+</ul>
+
+            </nav>
+
+            <div class="gh-head-actions">
+                    <button class="gh-search gh-icon-btn" aria-label="Search this site" data-ghost-search=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" width="20" height="20"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg></button>
+                    <div class="gh-head-members">
+                                <a class="gh-head-link gh-portal-close" href="#/portal/signin" data-portal="signin">Sign in</a>
+                                <a class="gh-head-button gh-portal-close" href="#/portal/signup" data-portal="signup">Subscribe</a>
+                    </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="site-content">
+        
+<div class="site-header-content outer">
+
+            <img class="site-header-cover" srcset="https://images.unsplash.com/photo-1513407030348-c983a97b98d8?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8c2VhcmNofDd8fHRva3lvfGVufDB8fHx8MTY4NjUxMjc1NXww&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=300 300w,
+                        https://images.unsplash.com/photo-1513407030348-c983a97b98d8?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8c2VhcmNofDd8fHRva3lvfGVufDB8fHx8MTY4NjUxMjc1NXww&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=600 600w,
+                        https://images.unsplash.com/photo-1513407030348-c983a97b98d8?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8c2VhcmNofDd8fHRva3lvfGVufDB8fHx8MTY4NjUxMjc1NXww&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1000 1000w,
+                        https://images.unsplash.com/photo-1513407030348-c983a97b98d8?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8c2VhcmNofDd8fHRva3lvfGVufDB8fHx8MTY4NjUxMjc1NXww&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=2000 2000w" sizes="100vw" src="https://images.unsplash.com/photo-1513407030348-c983a97b98d8?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8c2VhcmNofDd8fHRva3lvfGVufDB8fHx8MTY4NjUxMjc1NXww&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=2000" alt="Skerritt.blog">
+
+        <div class="site-header-inner inner">
+                    <h1 class="site-title">Skerritt.blog</h1>
+                <p class="site-description">Esoteric Computer Science Knowledge from your favourite local rust girlie </p>
+        </div>
+
+</div>
+
+<main id="site-main" class="site-main outer">
+<div class="inner posts">
+
+    <div class="post-feed">
+            
+<article class="post-card post tag-japanese post-card-large">
+
+    <a class="post-card-image-link" href="/my-magpie-settings-to-play-vns-on-a-bad-gpu/">
+
+        <img class="post-card-image" srcset="https://images.unsplash.com/photo-1759675739458-6e5a4a60a117?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDJ8fHx8fHx8fDE3NTk4MjIzMjl8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=300 300w,
+                    https://images.unsplash.com/photo-1759675739458-6e5a4a60a117?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDJ8fHx8fHx8fDE3NTk4MjIzMjl8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=600 600w,
+                    https://images.unsplash.com/photo-1759675739458-6e5a4a60a117?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDJ8fHx8fHx8fDE3NTk4MjIzMjl8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1000 1000w,
+                    https://images.unsplash.com/photo-1759675739458-6e5a4a60a117?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDJ8fHx8fHx8fDE3NTk4MjIzMjl8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=2000 2000w" sizes="(max-width: 1000px) 400px, 800px" src="https://images.unsplash.com/photo-1759675739458-6e5a4a60a117?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDJ8fHx8fHx8fDE3NTk4MjIzMjl8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=600" alt="My Magpie settings to play VNs on a bad GPU" loading="lazy">
+
+
+    </a>
+
+    <div class="post-card-content">
+
+        <a class="post-card-content-link" href="/my-magpie-settings-to-play-vns-on-a-bad-gpu/">
+            <header class="post-card-header">
+                <div class="post-card-tags">
+                        <span class="post-card-primary-tag">japanese</span>
+                </div>
+                <h2 class="post-card-title">
+                    My Magpie settings to play VNs on a bad GPU
+                </h2>
+            </header>
+        </a>
+
+        <footer class="post-card-meta">
+            <time class="post-card-meta-date" datetime="2025-10-07">07 Oct 2025</time>
+                
+        </footer>
+
+    </div>
+
+</article>
+            
+<article class="post-card post tag-system-design dynamic">
+
+    <a class="post-card-image-link" href="/designing-bit-ly/">
+
+        <img class="post-card-image" srcset="https://images.unsplash.com/photo-1756806983687-203048d56220?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDV8fHx8fHx8fDE3NTk0NDk5OTN8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=300 300w,
+                    https://images.unsplash.com/photo-1756806983687-203048d56220?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDV8fHx8fHx8fDE3NTk0NDk5OTN8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=600 600w,
+                    https://images.unsplash.com/photo-1756806983687-203048d56220?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDV8fHx8fHx8fDE3NTk0NDk5OTN8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1000 1000w,
+                    https://images.unsplash.com/photo-1756806983687-203048d56220?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDV8fHx8fHx8fDE3NTk0NDk5OTN8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=2000 2000w" sizes="(max-width: 1000px) 400px, 800px" src="https://images.unsplash.com/photo-1756806983687-203048d56220?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDV8fHx8fHx8fDE3NTk0NDk5OTN8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=600" alt="Designing Bit.ly" loading="lazy">
+
+
+    </a>
+
+    <div class="post-card-content">
+
+        <a class="post-card-content-link" href="/designing-bit-ly/">
+            <header class="post-card-header">
+                <div class="post-card-tags">
+                        <span class="post-card-primary-tag">system design</span>
+                </div>
+                <h2 class="post-card-title">
+                    Designing Bit.ly
+                </h2>
+            </header>
+                <div class="post-card-excerpt">Problem: Design a Tiny URL / Bit.ly competitor
+
+Given a long URL, create a short URL.
+
+Given a short URL, redirect to a long URL.
+
+Requirements
+
+ * Very high read, likely 80% of all links are the same 20% of links
+ * Not so much write
+ * Needs low latency
+ * High availabilitiy
+
+Flow</div>
+        </a>
+
+        <footer class="post-card-meta">
+            <time class="post-card-meta-date" datetime="2025-10-03">03 Oct 2025</time>
+                <span class="post-card-meta-length">3 min read</span>
+                
+        </footer>
+
+    </div>
+
+</article>
+            
+<article class="post-card post dynamic">
+
+    <a class="post-card-image-link" href="/how-i-vibe-code-2/">
+
+        <img class="post-card-image" srcset="https://images.unsplash.com/photo-1755397271926-3681d11c16e8?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDE0fHx8fHx8fHwxNzU3NDYzNDI1fA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=300 300w,
+                    https://images.unsplash.com/photo-1755397271926-3681d11c16e8?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDE0fHx8fHx8fHwxNzU3NDYzNDI1fA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=600 600w,
+                    https://images.unsplash.com/photo-1755397271926-3681d11c16e8?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDE0fHx8fHx8fHwxNzU3NDYzNDI1fA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1000 1000w,
+                    https://images.unsplash.com/photo-1755397271926-3681d11c16e8?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDE0fHx8fHx8fHwxNzU3NDYzNDI1fA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=2000 2000w" sizes="(max-width: 1000px) 400px, 800px" src="https://images.unsplash.com/photo-1755397271926-3681d11c16e8?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDE0fHx8fHx8fHwxNzU3NDYzNDI1fA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=600" alt="How I Vibe Code" loading="lazy">
+
+
+    </a>
+
+    <div class="post-card-content">
+
+        <a class="post-card-content-link" href="/how-i-vibe-code-2/">
+            <header class="post-card-header">
+                <div class="post-card-tags">
+                </div>
+                <h2 class="post-card-title">
+                    How I Vibe Code
+                </h2>
+            </header>
+                <div class="post-card-excerpt">I just vibe coded this:
+
+Statistics for reading JapaneseHi friends! I just released my first ever web-dev project! There’s a tool called Game Sentence Miner which uses OCR to grab text from your screen, and it lets you look that text up in a dictionary. GitHub - bpwhelan/GameSentenceMiner:</div>
+        </a>
+
+        <footer class="post-card-meta">
+            <time class="post-card-meta-date" datetime="2025-09-10">10 Sep 2025</time>
+                <span class="post-card-meta-length">2 min read</span>
+                
+        </footer>
+
+    </div>
+
+</article>
+            
+<article class="post-card post tag-japanese">
+
+    <a class="post-card-image-link" href="/statistics-for-reading-japanese/">
+
+        <img class="post-card-image" srcset="https://images.unsplash.com/photo-1757288354960-0e9783136e4c?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDZ8fHx8fHx8fDE3NTc0MDEyNjZ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=300 300w,
+                    https://images.unsplash.com/photo-1757288354960-0e9783136e4c?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDZ8fHx8fHx8fDE3NTc0MDEyNjZ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=600 600w,
+                    https://images.unsplash.com/photo-1757288354960-0e9783136e4c?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDZ8fHx8fHx8fDE3NTc0MDEyNjZ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1000 1000w,
+                    https://images.unsplash.com/photo-1757288354960-0e9783136e4c?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDZ8fHx8fHx8fDE3NTc0MDEyNjZ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=2000 2000w" sizes="(max-width: 1000px) 400px, 800px" src="https://images.unsplash.com/photo-1757288354960-0e9783136e4c?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDZ8fHx8fHx8fDE3NTc0MDEyNjZ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=600" alt="Statistics for reading Japanese" loading="lazy">
+
+
+    </a>
+
+    <div class="post-card-content">
+
+        <a class="post-card-content-link" href="/statistics-for-reading-japanese/">
+            <header class="post-card-header">
+                <div class="post-card-tags">
+                        <span class="post-card-primary-tag">japanese</span>
+                </div>
+                <h2 class="post-card-title">
+                    Statistics for reading Japanese
+                </h2>
+            </header>
+                <div class="post-card-excerpt">Hi friends!
+
+I just released my first ever web-dev project!
+
+There's a tool called Game Sentence Miner which uses OCR to grab text from your screen, and it lets you look that text up in a dictionary.
+
+GitHub - bpwhelan/GameSentenceMiner: An All-in-One immersion toolkit for learning Languages</div>
+        </a>
+
+        <footer class="post-card-meta">
+            <time class="post-card-meta-date" datetime="2025-09-09">09 Sep 2025</time>
+                <span class="post-card-meta-length">4 min read</span>
+                
+        </footer>
+
+    </div>
+
+</article>
+            
+<article class="post-card post tag-system-design">
+
+    <a class="post-card-image-link" href="/20-pop/">
+
+        <img class="post-card-image" srcset="https://images.unsplash.com/photo-1756572396714-5f5430b725e3?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDI2fHx8fHx8fHwxNzU2NjkwNzMwfA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=300 300w,
+                    https://images.unsplash.com/photo-1756572396714-5f5430b725e3?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDI2fHx8fHx8fHwxNzU2NjkwNzMwfA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=600 600w,
+                    https://images.unsplash.com/photo-1756572396714-5f5430b725e3?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDI2fHx8fHx8fHwxNzU2NjkwNzMwfA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1000 1000w,
+                    https://images.unsplash.com/photo-1756572396714-5f5430b725e3?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDI2fHx8fHx8fHwxNzU2NjkwNzMwfA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=2000 2000w" sizes="(max-width: 1000px) 400px, 800px" src="https://images.unsplash.com/photo-1756572396714-5f5430b725e3?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDI2fHx8fHx8fHwxNzU2NjkwNzMwfA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=600" alt="20 Popular System Design Interview Questions" loading="lazy">
+
+
+    </a>
+
+    <div class="post-card-content">
+
+        <a class="post-card-content-link" href="/20-pop/">
+            <header class="post-card-header">
+                <div class="post-card-tags">
+                        <span class="post-card-primary-tag">system design</span>
+                </div>
+                <h2 class="post-card-title">
+                    20 Popular System Design Interview Questions
+                </h2>
+            </header>
+                <div class="post-card-excerpt">1. Distributed Metrics Logging &amp; Aggregation System
+Companies: Google, Facebook, Amazon, eBay, Datadog, Atlassian
+
+2. Distributed Stream Processing System (like Kafka)
+Companies: Amazon, Microsoft, Wise, Confluent
+
+3. Key-Value Store
+Companies: Apple, Google, Canva, Avalara, Rubrik, OpenDoor
+
+4. K Most Shared Articles in Time Windows (24h, 1h, 5m)
+Companies: LinkedIn, Facebook,</div>
+        </a>
+
+        <footer class="post-card-meta">
+            <time class="post-card-meta-date" datetime="2025-09-01">01 Sep 2025</time>
+                <span class="post-card-meta-length">1 min read</span>
+                
+        </footer>
+
+    </div>
+
+</article>
+            
+<article class="post-card post tag-japanese">
+
+    <a class="post-card-image-link" href="/japanese-august-2025/">
+
+        <img class="post-card-image" srcset="https://images.unsplash.com/photo-1755541516554-7c5126ec7f7b?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wxfDF8YWxsfDF8fHx8fHx8fDE3NTY2MzI2Mzd8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=300 300w,
+                    https://images.unsplash.com/photo-1755541516554-7c5126ec7f7b?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wxfDF8YWxsfDF8fHx8fHx8fDE3NTY2MzI2Mzd8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=600 600w,
+                    https://images.unsplash.com/photo-1755541516554-7c5126ec7f7b?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wxfDF8YWxsfDF8fHx8fHx8fDE3NTY2MzI2Mzd8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1000 1000w,
+                    https://images.unsplash.com/photo-1755541516554-7c5126ec7f7b?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wxfDF8YWxsfDF8fHx8fHx8fDE3NTY2MzI2Mzd8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=2000 2000w" sizes="(max-width: 1000px) 400px, 800px" src="https://images.unsplash.com/photo-1755541516554-7c5126ec7f7b?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wxfDF8YWxsfDF8fHx8fHx8fDE3NTY2MzI2Mzd8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=600" alt="Japanese August 2025" loading="lazy">
+
+
+    </a>
+
+    <div class="post-card-content">
+
+        <a class="post-card-content-link" href="/japanese-august-2025/">
+            <header class="post-card-header">
+                <div class="post-card-tags">
+                        <span class="post-card-primary-tag">japanese</span>
+                </div>
+                <h2 class="post-card-title">
+                    Japanese August 2025
+                </h2>
+            </header>
+                <div class="post-card-excerpt">I made this to track my characters read!
+
+My mining deck is nearly at 1k matures :)</div>
+        </a>
+
+        <footer class="post-card-meta">
+            <time class="post-card-meta-date" datetime="2025-08-31">31 Aug 2025</time>
+                <span class="post-card-meta-length">1 min read</span>
+                
+        </footer>
+
+    </div>
+
+</article>
+            
+<article class="post-card post tag-japanese">
+
+    <a class="post-card-image-link" href="/how-im-learning-japanese-august-2025/">
+
+        <img class="post-card-image" srcset="https://images.unsplash.com/photo-1755331039789-7e5680e26e8f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDF8fHx8fHx8fDE3NTU5MzQzMjd8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=300 300w,
+                    https://images.unsplash.com/photo-1755331039789-7e5680e26e8f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDF8fHx8fHx8fDE3NTU5MzQzMjd8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=600 600w,
+                    https://images.unsplash.com/photo-1755331039789-7e5680e26e8f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDF8fHx8fHx8fDE3NTU5MzQzMjd8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1000 1000w,
+                    https://images.unsplash.com/photo-1755331039789-7e5680e26e8f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDF8fHx8fHx8fDE3NTU5MzQzMjd8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=2000 2000w" sizes="(max-width: 1000px) 400px, 800px" src="https://images.unsplash.com/photo-1755331039789-7e5680e26e8f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDF8fHx8fHx8fDE3NTU5MzQzMjd8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=600" alt="How I'm Learning Japanese August 2025" loading="lazy">
+
+
+    </a>
+
+    <div class="post-card-content">
+
+        <a class="post-card-content-link" href="/how-im-learning-japanese-august-2025/">
+            <header class="post-card-header">
+                <div class="post-card-tags">
+                        <span class="post-card-primary-tag">japanese</span>
+                </div>
+                <h2 class="post-card-title">
+                    How I'm Learning Japanese August 2025
+                </h2>
+            </header>
+                <div class="post-card-excerpt">My morning routine looks like:
+
+
+Anki
+
+I do 20 new cards a day.
+
+The cards are ones I have created from reading, like this:
+
+I only make cards if:
+
+ * It's within 5k frequency, so it's common to me
+ * OR I know all the Kanji in the</div>
+        </a>
+
+        <footer class="post-card-meta">
+            <time class="post-card-meta-date" datetime="2025-08-23">23 Aug 2025</time>
+                <span class="post-card-meta-length">7 min read</span>
+                
+        </footer>
+
+    </div>
+
+</article>
+            
+<article class="post-card post tag-japanese">
+
+    <a class="post-card-image-link" href="/the-jazzcat-output-method-converstation/">
+
+        <img class="post-card-image" srcset="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8c2VhcmNofDF8fGNhdHxlbnwwfHx8fDE3NTU5MjUwMzl8MA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=300 300w,
+                    https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8c2VhcmNofDF8fGNhdHxlbnwwfHx8fDE3NTU5MjUwMzl8MA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=600 600w,
+                    https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8c2VhcmNofDF8fGNhdHxlbnwwfHx8fDE3NTU5MjUwMzl8MA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1000 1000w,
+                    https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8c2VhcmNofDF8fGNhdHxlbnwwfHx8fDE3NTU5MjUwMzl8MA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=2000 2000w" sizes="(max-width: 1000px) 400px, 800px" src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8c2VhcmNofDF8fGNhdHxlbnwwfHx8fDE3NTU5MjUwMzl8MA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=600" alt="The Jazzcat Output Method Converstation" loading="lazy">
+
+
+    </a>
+
+    <div class="post-card-content">
+
+        <a class="post-card-content-link" href="/the-jazzcat-output-method-converstation/">
+            <header class="post-card-header">
+                <div class="post-card-tags">
+                        <span class="post-card-primary-tag">japanese</span>
+                </div>
+                <h2 class="post-card-title">
+                    The Jazzcat Output Method Converstation
+                </h2>
+            </header>
+                <div class="post-card-excerpt">I talked to Jazzcat about my retention and wanted to share it here 😄
+
+Jazzcat is a member in The Moeway Discord famous for having a very weird and unique approach to Anki.
+
+However, this approach has led them to obtain one of the highest ranks via vocab quizes on the</div>
+        </a>
+
+        <footer class="post-card-meta">
+            <time class="post-card-meta-date" datetime="2025-08-23">23 Aug 2025</time>
+                <span class="post-card-meta-length">7 min read</span>
+                
+        </footer>
+
+    </div>
+
+</article>
+            
+<article class="post-card post tag-japanese">
+
+    <a class="post-card-image-link" href="/difficulty-hell-in-anki/">
+
+        <img class="post-card-image" srcset="https://images.unsplash.com/photo-1755202186471-836b76d86891?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDV8fHx8fHx8fDE3NTU4NjI0NzB8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=300 300w,
+                    https://images.unsplash.com/photo-1755202186471-836b76d86891?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDV8fHx8fHx8fDE3NTU4NjI0NzB8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=600 600w,
+                    https://images.unsplash.com/photo-1755202186471-836b76d86891?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDV8fHx8fHx8fDE3NTU4NjI0NzB8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1000 1000w,
+                    https://images.unsplash.com/photo-1755202186471-836b76d86891?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDV8fHx8fHx8fDE3NTU4NjI0NzB8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=2000 2000w" sizes="(max-width: 1000px) 400px, 800px" src="https://images.unsplash.com/photo-1755202186471-836b76d86891?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDV8fHx8fHx8fDE3NTU4NjI0NzB8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=600" alt="Difficulty Hell in Anki" loading="lazy">
+
+
+    </a>
+
+    <div class="post-card-content">
+
+        <a class="post-card-content-link" href="/difficulty-hell-in-anki/">
+            <header class="post-card-header">
+                <div class="post-card-tags">
+                        <span class="post-card-primary-tag">japanese</span>
+                </div>
+                <h2 class="post-card-title">
+                    Difficulty Hell in Anki
+                </h2>
+            </header>
+                <div class="post-card-excerpt">This was discovered by Para in The Moe Way Discord Server.
+
+For some people using Anki with FSRS you will have a very high Anki median difficulty:
+
+Something like 95% (before mine was 98%).
+
+This means cards mature super, super slowly. I was doing 30 new cards / day, and maturing</div>
+        </a>
+
+        <footer class="post-card-meta">
+            <time class="post-card-meta-date" datetime="2025-08-22">22 Aug 2025</time>
+                <span class="post-card-meta-length">3 min read</span>
+                
+        </footer>
+
+    </div>
+
+</article>
+            
+<article class="post-card post tag-grind75">
+
+    <a class="post-card-image-link" href="/746-min-cost-climbing-stairs/">
+
+        <img class="post-card-image" srcset="https://images.unsplash.com/photo-1673772558396-a4fd0c67fae9?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=MnwxMTc3M3wwfDF8YWxsfDE1fHx8fHx8Mnx8MTY3NDExODQ2OA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=300 300w,
+                    https://images.unsplash.com/photo-1673772558396-a4fd0c67fae9?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=MnwxMTc3M3wwfDF8YWxsfDE1fHx8fHx8Mnx8MTY3NDExODQ2OA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=600 600w,
+                    https://images.unsplash.com/photo-1673772558396-a4fd0c67fae9?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=MnwxMTc3M3wwfDF8YWxsfDE1fHx8fHx8Mnx8MTY3NDExODQ2OA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1000 1000w,
+                    https://images.unsplash.com/photo-1673772558396-a4fd0c67fae9?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=MnwxMTc3M3wwfDF8YWxsfDE1fHx8fHx8Mnx8MTY3NDExODQ2OA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=2000 2000w" sizes="(max-width: 1000px) 400px, 800px" src="https://images.unsplash.com/photo-1673772558396-a4fd0c67fae9?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=MnwxMTc3M3wwfDF8YWxsfDE1fHx8fHx8Mnx8MTY3NDExODQ2OA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=600" alt="746. Min Cost Climbing Stairs" loading="lazy">
+
+
+    </a>
+
+    <div class="post-card-content">
+
+        <a class="post-card-content-link" href="/746-min-cost-climbing-stairs/">
+            <header class="post-card-header">
+                <div class="post-card-tags">
+                        <span class="post-card-primary-tag">grind75</span>
+                </div>
+                <h2 class="post-card-title">
+                    746. Min Cost Climbing Stairs
+                </h2>
+            </header>
+                <div class="post-card-excerpt">Problem
+
+You are given an integer array cost where cost[i] is the cost of ith step on a staircase. Once you pay the cost, you can either climb one or two steps.
+
+You can either start from the step with index 0, or the step with index 1.
+
+Return</div>
+        </a>
+
+        <footer class="post-card-meta">
+            <time class="post-card-meta-date" datetime="2025-08-21">21 Aug 2025</time>
+                <span class="post-card-meta-length">2 min read</span>
+                
+        </footer>
+
+    </div>
+
+</article>
+            
+<article class="post-card post">
+
+    <a class="post-card-image-link" href="/my-experience-with-amazon-kendra/">
+
+        <img class="post-card-image" srcset="https://images.unsplash.com/photo-1670272499232-d6c55af87386?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=MnwxMTc3M3wxfDF8YWxsfDZ8fHx8fHwyfHwxNjc2MDM4Mzk2&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=300 300w,
+                    https://images.unsplash.com/photo-1670272499232-d6c55af87386?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=MnwxMTc3M3wxfDF8YWxsfDZ8fHx8fHwyfHwxNjc2MDM4Mzk2&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=600 600w,
+                    https://images.unsplash.com/photo-1670272499232-d6c55af87386?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=MnwxMTc3M3wxfDF8YWxsfDZ8fHx8fHwyfHwxNjc2MDM4Mzk2&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1000 1000w,
+                    https://images.unsplash.com/photo-1670272499232-d6c55af87386?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=MnwxMTc3M3wxfDF8YWxsfDZ8fHx8fHwyfHwxNjc2MDM4Mzk2&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=2000 2000w" sizes="(max-width: 1000px) 400px, 800px" src="https://images.unsplash.com/photo-1670272499232-d6c55af87386?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=MnwxMTc3M3wxfDF8YWxsfDZ8fHx8fHwyfHwxNjc2MDM4Mzk2&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=600" alt="My experience with Amazon Kendra" loading="lazy">
+
+
+    </a>
+
+    <div class="post-card-content">
+
+        <a class="post-card-content-link" href="/my-experience-with-amazon-kendra/">
+            <header class="post-card-header">
+                <div class="post-card-tags">
+                </div>
+                <h2 class="post-card-title">
+                    My experience with Amazon Kendra
+                </h2>
+            </header>
+                <div class="post-card-excerpt">A couple months ago in a hackathon for Monzo I put together a lil team to complete the impossible:
+
+"Organise the world's Monzo's information and make it easily searchable"
+
+We ended up using Amazon Kendra, let's discuss my experience with it.
+
+
+The</div>
+        </a>
+
+        <footer class="post-card-meta">
+            <time class="post-card-meta-date" datetime="2025-08-21">21 Aug 2025</time>
+                <span class="post-card-meta-length">3 min read</span>
+                
+        </footer>
+
+    </div>
+
+</article>
+            
+<article class="post-card post">
+
+    <a class="post-card-image-link" href="/cyberfork/">
+
+        <img class="post-card-image" srcset="https://images.unsplash.com/photo-1702540122576-dd7d387f652f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDJ8fHx8fHwyfHwxNzAyNjM4MTg3fA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=300 300w,
+                    https://images.unsplash.com/photo-1702540122576-dd7d387f652f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDJ8fHx8fHwyfHwxNzAyNjM4MTg3fA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=600 600w,
+                    https://images.unsplash.com/photo-1702540122576-dd7d387f652f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDJ8fHx8fHwyfHwxNzAyNjM4MTg3fA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1000 1000w,
+                    https://images.unsplash.com/photo-1702540122576-dd7d387f652f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDJ8fHx8fHwyfHwxNzAyNjM4MTg3fA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=2000 2000w" sizes="(max-width: 1000px) 400px, 800px" src="https://images.unsplash.com/photo-1702540122576-dd7d387f652f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDJ8fHx8fHwyfHwxNzAyNjM4MTg3fA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=600" alt="Introducing CyberFork - The community fork of CyberChef" loading="lazy">
+
+
+    </a>
+
+    <div class="post-card-content">
+
+        <a class="post-card-content-link" href="/cyberfork/">
+            <header class="post-card-header">
+                <div class="post-card-tags">
+                </div>
+                <h2 class="post-card-title">
+                    Introducing CyberFork - The community fork of CyberChef
+                </h2>
+            </header>
+                <div class="post-card-excerpt">Click here to go to CyberFork
+
+CyberChefThe Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis
+
+CyberChef is dying.
+
+The last release was 5 months ago. There are over 100 pull requests and 300 GitHub issues.
+
+The most upvoted pull request is 4 years</div>
+        </a>
+
+        <footer class="post-card-meta">
+            <time class="post-card-meta-date" datetime="2025-08-21">21 Aug 2025</time>
+                <span class="post-card-meta-length">6 min read</span>
+                
+        </footer>
+
+    </div>
+
+</article>
+            
+<article class="post-card post tag-japanese">
+
+    <a class="post-card-image-link" href="/using-a-japanese-input-system-jis-keyboard-with-gb-layout/">
+
+        <img class="post-card-image" srcset="https://images.unsplash.com/photo-1755272853203-1469840c4c60?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDN8fHx8fHx8fDE3NTU3NDE4OTd8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=300 300w,
+                    https://images.unsplash.com/photo-1755272853203-1469840c4c60?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDN8fHx8fHx8fDE3NTU3NDE4OTd8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=600 600w,
+                    https://images.unsplash.com/photo-1755272853203-1469840c4c60?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDN8fHx8fHx8fDE3NTU3NDE4OTd8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1000 1000w,
+                    https://images.unsplash.com/photo-1755272853203-1469840c4c60?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDN8fHx8fHx8fDE3NTU3NDE4OTd8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=2000 2000w" sizes="(max-width: 1000px) 400px, 800px" src="https://images.unsplash.com/photo-1755272853203-1469840c4c60?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDN8fHx8fHx8fDE3NTU3NDE4OTd8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=600" alt="Using a Japanese Input System (JIS) Keyboard with GB layout" loading="lazy">
+
+
+    </a>
+
+    <div class="post-card-content">
+
+        <a class="post-card-content-link" href="/using-a-japanese-input-system-jis-keyboard-with-gb-layout/">
+            <header class="post-card-header">
+                <div class="post-card-tags">
+                        <span class="post-card-primary-tag">japanese</span>
+                </div>
+                <h2 class="post-card-title">
+                    Using a Japanese Input System (JIS) Keyboard with GB layout
+                </h2>
+            </header>
+                <div class="post-card-excerpt">A JIS keyboard looks like this:
+
+Notice the 2 buttons next to the spacebar, and in the top left hand corner you have an input switcher button.
+
+This is how to use a GB keyboard in Romaji input on a JIS.
+
+ 1. Start regedit as admin
+ 2. Find your keyboard</div>
+        </a>
+
+        <footer class="post-card-meta">
+            <time class="post-card-meta-date" datetime="2025-08-21">21 Aug 2025</time>
+                <span class="post-card-meta-length">1 min read</span>
+                
+        </footer>
+
+    </div>
+
+</article>
+            
+<article class="post-card post tag-japanese">
+
+    <a class="post-card-image-link" href="/the-best-noob-kanji-dictionary/">
+
+        <img class="post-card-image" srcset="https://images.unsplash.com/photo-1755134148217-2dd89cc6a2c2?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDN8fHx8fHx8fDE3NTU3MzUyNDZ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=300 300w,
+                    https://images.unsplash.com/photo-1755134148217-2dd89cc6a2c2?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDN8fHx8fHx8fDE3NTU3MzUyNDZ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=600 600w,
+                    https://images.unsplash.com/photo-1755134148217-2dd89cc6a2c2?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDN8fHx8fHx8fDE3NTU3MzUyNDZ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1000 1000w,
+                    https://images.unsplash.com/photo-1755134148217-2dd89cc6a2c2?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDN8fHx8fHx8fDE3NTU3MzUyNDZ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=2000 2000w" sizes="(max-width: 1000px) 400px, 800px" src="https://images.unsplash.com/photo-1755134148217-2dd89cc6a2c2?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDN8fHx8fHx8fDE3NTU3MzUyNDZ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=600" alt="The Best Beginner Kanji Dictionary" loading="lazy">
+
+
+    </a>
+
+    <div class="post-card-content">
+
+        <a class="post-card-content-link" href="/the-best-noob-kanji-dictionary/">
+            <header class="post-card-header">
+                <div class="post-card-tags">
+                        <span class="post-card-primary-tag">japanese</span>
+                </div>
+                <h2 class="post-card-title">
+                    The Best Beginner Kanji Dictionary
+                </h2>
+            </header>
+                <div class="post-card-excerpt">Over in TheMoeWay user road_to_redemption shared their Kanji dictionary:
+
+It has everything you need from a Kanji dict:
+
+ * Meaning
+ * Frequency
+ * Top 3 common words with readings + translations
+ * Readings + distributions
+ * Components with keywords
+
+I really like this a lot, in particular the frequency + meaning + readings of the Kanji.
+
+Current</div>
+        </a>
+
+        <footer class="post-card-meta">
+            <time class="post-card-meta-date" datetime="2025-08-21">21 Aug 2025</time>
+                <span class="post-card-meta-length">2 min read</span>
+                
+        </footer>
+
+    </div>
+
+</article>
+            
+<article class="post-card post tag-japanese">
+
+    <a class="post-card-image-link" href="/my-current-way-to-mine-visual-novels/">
+
+        <img class="post-card-image" srcset="https://images.unsplash.com/photo-1754766621748-2a96cbf56a1f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDR8fHx8fHx8fDE3NTUwNzc2MjF8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=300 300w,
+                    https://images.unsplash.com/photo-1754766621748-2a96cbf56a1f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDR8fHx8fHx8fDE3NTUwNzc2MjF8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=600 600w,
+                    https://images.unsplash.com/photo-1754766621748-2a96cbf56a1f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDR8fHx8fHx8fDE3NTUwNzc2MjF8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1000 1000w,
+                    https://images.unsplash.com/photo-1754766621748-2a96cbf56a1f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDR8fHx8fHx8fDE3NTUwNzc2MjF8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=2000 2000w" sizes="(max-width: 1000px) 400px, 800px" src="https://images.unsplash.com/photo-1754766621748-2a96cbf56a1f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDR8fHx8fHx8fDE3NTUwNzc2MjF8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=600" alt="My current way to mine visual novels" loading="lazy">
+
+
+    </a>
+
+    <div class="post-card-content">
+
+        <a class="post-card-content-link" href="/my-current-way-to-mine-visual-novels/">
+            <header class="post-card-header">
+                <div class="post-card-tags">
+                        <span class="post-card-primary-tag">japanese</span>
+                </div>
+                <h2 class="post-card-title">
+                    My current way to mine visual novels
+                </h2>
+            </header>
+                <div class="post-card-excerpt">My main method of learning Japanese is by reading Visual Novels.
+
+These are kinda like a game and kinda like a novel.
+
+To give you a rundown:
+
+ * Every bit of text is spelt out on the screen
+ * It is usually fully voiced by Japanese natives
+ * The game does not continue</div>
+        </a>
+
+        <footer class="post-card-meta">
+            <time class="post-card-meta-date" datetime="2025-08-13">13 Aug 2025</time>
+                <span class="post-card-meta-length">4 min read</span>
+                
+        </footer>
+
+    </div>
+
+</article>
+            
+<article class="post-card post tag-cybersecurity tag-cissp">
+
+    <a class="post-card-image-link" href="/acing-the-worlds-hardest-cyber-security-exam-with-3-days-of-study/">
+
+        <img class="post-card-image" srcset="https://images.unsplash.com/photo-1507146153580-69a1fe6d8aa1?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8c2VhcmNofDN8fHJvYm90fGVufDB8fHx8MTc1MjEyNjY0MXww&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=300 300w,
+                    https://images.unsplash.com/photo-1507146153580-69a1fe6d8aa1?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8c2VhcmNofDN8fHJvYm90fGVufDB8fHx8MTc1MjEyNjY0MXww&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=600 600w,
+                    https://images.unsplash.com/photo-1507146153580-69a1fe6d8aa1?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8c2VhcmNofDN8fHJvYm90fGVufDB8fHx8MTc1MjEyNjY0MXww&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1000 1000w,
+                    https://images.unsplash.com/photo-1507146153580-69a1fe6d8aa1?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8c2VhcmNofDN8fHJvYm90fGVufDB8fHx8MTc1MjEyNjY0MXww&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=2000 2000w" sizes="(max-width: 1000px) 400px, 800px" src="https://images.unsplash.com/photo-1507146153580-69a1fe6d8aa1?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8c2VhcmNofDN8fHJvYm90fGVufDB8fHx8MTc1MjEyNjY0MXww&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=600" alt="Acing the World's Hardest Cyber Security Exam with 3 Days of Study" loading="lazy">
+
+
+    </a>
+
+    <div class="post-card-content">
+
+        <a class="post-card-content-link" href="/acing-the-worlds-hardest-cyber-security-exam-with-3-days-of-study/">
+            <header class="post-card-header">
+                <div class="post-card-tags">
+                        <span class="post-card-primary-tag">cybersecurity</span>
+                </div>
+                <h2 class="post-card-title">
+                    Acing the World's Hardest Cyber Security Exam with 3 Days of Study
+                </h2>
+            </header>
+                <div class="post-card-excerpt">I passed the world's hardest cybersecurity exam with only 3 days of study.
+
+
+What exam was it?
+
+CISSP (Certified Information Systems Security Professional)
+
+
+Why is it so hard
+
+ 1. The exam covers 8 domains.
+
+The CISSP is described as a mile-wide, inch-deep. You need to know a lot</div>
+        </a>
+
+        <footer class="post-card-meta">
+            <time class="post-card-meta-date" datetime="2025-07-10">10 Jul 2025</time>
+                <span class="post-card-meta-length">8 min read</span>
+                
+        </footer>
+
+    </div>
+
+</article>
+            
+<article class="post-card post tag-japanese">
+
+    <a class="post-card-image-link" href="/visual-novel-review-tuyutirureta-hai-tokan-niyu-yin-wo/">
+
+        <img class="post-card-image" srcset="https://images.unsplash.com/photo-1743376272672-c130603a3af2?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDR8fHx8fHx8fDE3NTE5MjkzNDV8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=300 300w,
+                    https://images.unsplash.com/photo-1743376272672-c130603a3af2?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDR8fHx8fHx8fDE3NTE5MjkzNDV8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=600 600w,
+                    https://images.unsplash.com/photo-1743376272672-c130603a3af2?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDR8fHx8fHx8fDE3NTE5MjkzNDV8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1000 1000w,
+                    https://images.unsplash.com/photo-1743376272672-c130603a3af2?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDR8fHx8fHx8fDE3NTE5MjkzNDV8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=2000 2000w" sizes="(max-width: 1000px) 400px, 800px" src="https://images.unsplash.com/photo-1743376272672-c130603a3af2?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDR8fHx8fHx8fDE3NTE5MjkzNDV8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=600" alt="Visual Novel Review: ツユチル・レター～海と栞に雨音を～" loading="lazy">
+
+
+    </a>
+
+    <div class="post-card-content">
+
+        <a class="post-card-content-link" href="/visual-novel-review-tuyutirureta-hai-tokan-niyu-yin-wo/">
+            <header class="post-card-header">
+                <div class="post-card-tags">
+                        <span class="post-card-primary-tag">japanese</span>
+                </div>
+                <h2 class="post-card-title">
+                    Visual Novel Review: ツユチル・レター～海と栞に雨音を～
+                </h2>
+            </header>
+                <div class="post-card-excerpt">I finished this visual novel 2 days ago!
+
+It was my first ever visual novel I finished! I had played some Danganronpa before but it wasn't voiced at all.
+
+Tsuyuchiru Letter ~Umi to Shiori ni Amaoto o~The prestigious private girls’ school, Kikyou Academy, educates young ladies from</div>
+        </a>
+
+        <footer class="post-card-meta">
+            <time class="post-card-meta-date" datetime="2025-07-07">07 Jul 2025</time>
+                <span class="post-card-meta-length">3 min read</span>
+                
+        </footer>
+
+    </div>
+
+</article>
+            
+<article class="post-card post tag-studylog">
+
+    <a class="post-card-image-link" href="/autumns-study-log-week-7/">
+
+        <img class="post-card-image" srcset="https://images.unsplash.com/photo-1742626157111-59f3f1019a8a?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDR8fHx8fHx8fDE3NTA1NDY5ODZ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=300 300w,
+                    https://images.unsplash.com/photo-1742626157111-59f3f1019a8a?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDR8fHx8fHx8fDE3NTA1NDY5ODZ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=600 600w,
+                    https://images.unsplash.com/photo-1742626157111-59f3f1019a8a?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDR8fHx8fHx8fDE3NTA1NDY5ODZ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1000 1000w,
+                    https://images.unsplash.com/photo-1742626157111-59f3f1019a8a?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDR8fHx8fHx8fDE3NTA1NDY5ODZ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=2000 2000w" sizes="(max-width: 1000px) 400px, 800px" src="https://images.unsplash.com/photo-1742626157111-59f3f1019a8a?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDR8fHx8fHx8fDE3NTA1NDY5ODZ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=600" alt="Autumn's Study Log, Week 7" loading="lazy">
+
+
+    </a>
+
+    <div class="post-card-content">
+
+        <a class="post-card-content-link" href="/autumns-study-log-week-7/">
+            <header class="post-card-header">
+                <div class="post-card-tags">
+                        <span class="post-card-primary-tag">studylog</span>
+                </div>
+                <h2 class="post-card-title">
+                    Autumn's Study Log, Week 7
+                </h2>
+            </header>
+                <div class="post-card-excerpt">This is my study log for learning Japanese.
+
+私はこれを日本語書きます。
+
+今週は54時間勉強しました.
+
+日曜日はまだ終わっていません。
+
+121単語を覚えました
+
+450つの漢字は思えました。ankiの名前は「rrtk450」
+
+フラッシュカード計算
+
+219 若い
+
+132 古い
+
+古い==覚えました
+
+
+Total active study hours
+
+⏱️ 2023: 7h 8m (started in December 2023)
+
+⏱️ 2024: 912h 13m 42s (I got serious, but still struggled. Deleted all my flashcards and known words</div>
+        </a>
+
+        <footer class="post-card-meta">
+            <time class="post-card-meta-date" datetime="2025-06-21">21 Jun 2025</time>
+                <span class="post-card-meta-length">1 min read</span>
+                
+        </footer>
+
+    </div>
+
+</article>
+            
+<article class="post-card post tag-languages tag-hawaiian tag-yomitan">
+
+    <a class="post-card-image-link" href="/yomitan-for-hawaiian/">
+
+        <img class="post-card-image" srcset="https://images.unsplash.com/photo-1545251142-f32339076e6d?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8c2VhcmNofDF8fGhhd2FpaXxlbnwwfHx8fDE3NDgxMjY3Mjh8MA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=300 300w,
+                    https://images.unsplash.com/photo-1545251142-f32339076e6d?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8c2VhcmNofDF8fGhhd2FpaXxlbnwwfHx8fDE3NDgxMjY3Mjh8MA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=600 600w,
+                    https://images.unsplash.com/photo-1545251142-f32339076e6d?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8c2VhcmNofDF8fGhhd2FpaXxlbnwwfHx8fDE3NDgxMjY3Mjh8MA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1000 1000w,
+                    https://images.unsplash.com/photo-1545251142-f32339076e6d?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8c2VhcmNofDF8fGhhd2FpaXxlbnwwfHx8fDE3NDgxMjY3Mjh8MA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=2000 2000w" sizes="(max-width: 1000px) 400px, 800px" src="https://images.unsplash.com/photo-1545251142-f32339076e6d?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8c2VhcmNofDF8fGhhd2FpaXxlbnwwfHx8fDE3NDgxMjY3Mjh8MA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=600" alt="Using Yomitan (a pop up dictionary) for Hawaiian" loading="lazy">
+
+
+    </a>
+
+    <div class="post-card-content">
+
+        <a class="post-card-content-link" href="/yomitan-for-hawaiian/">
+            <header class="post-card-header">
+                <div class="post-card-tags">
+                        <span class="post-card-primary-tag">languages</span>
+                </div>
+                <h2 class="post-card-title">
+                    Using Yomitan (a pop up dictionary) for Hawaiian
+                </h2>
+            </header>
+                <div class="post-card-excerpt">I added support for Hawaiian to Yomitan, a pop-up browser based dictionary.
+
+I originally learnt Hawaiian on Duolingo in 2016. Then I spent a few years learning Japanese and now I am writing / updating Japanese learning software to work with Hawaiian 🥳
+
+
+What is Yomitan?
+
+Yomitan is a browser extension pop</div>
+        </a>
+
+        <footer class="post-card-meta">
+            <time class="post-card-meta-date" datetime="2025-06-11">11 Jun 2025</time>
+                <span class="post-card-meta-length">5 min read</span>
+                
+        </footer>
+
+    </div>
+
+</article>
+            
+<article class="post-card post tag-ai">
+
+    <a class="post-card-image-link" href="/why-talk-in-english-gibberlink/">
+
+        <img class="post-card-image" srcset="https://images.unsplash.com/photo-1734779205618-30ee0220f56f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDF8fHx8fHx8fDE3NDA2MDIyNzV8&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=300 300w,
+                    https://images.unsplash.com/photo-1734779205618-30ee0220f56f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDF8fHx8fHx8fDE3NDA2MDIyNzV8&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=600 600w,
+                    https://images.unsplash.com/photo-1734779205618-30ee0220f56f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDF8fHx8fHx8fDE3NDA2MDIyNzV8&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1000 1000w,
+                    https://images.unsplash.com/photo-1734779205618-30ee0220f56f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDF8fHx8fHx8fDE3NDA2MDIyNzV8&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=2000 2000w" sizes="(max-width: 1000px) 400px, 800px" src="https://images.unsplash.com/photo-1734779205618-30ee0220f56f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDF8fHx8fHx8fDE3NDA2MDIyNzV8&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=600" alt="Why talk in English? Gibberlink" loading="lazy">
+
+
+    </a>
+
+    <div class="post-card-content">
+
+        <a class="post-card-content-link" href="/why-talk-in-english-gibberlink/">
+            <header class="post-card-header">
+                <div class="post-card-tags">
+                        <span class="post-card-primary-tag">AI</span>
+                </div>
+                <h2 class="post-card-title">
+                    Why talk in English? Gibberlink
+                </h2>
+            </header>
+                <div class="post-card-excerpt">English is a bad language for communicating. It takes so long to say so little.
+
+This repo introduces GibberLink, 2 AI agents realise they are both AI and switch to a dial-up like language to communicate much faster and with less issues.
+
+Pretty cool!
+
+GitHub - PennyroyalTea/gibberlink: Two conversational</div>
+        </a>
+
+        <footer class="post-card-meta">
+            <time class="post-card-meta-date" datetime="2025-02-26">26 Feb 2025</time>
+                <span class="post-card-meta-length">1 min read</span>
+                
+        </footer>
+
+    </div>
+
+</article>
+            
+<article class="post-card post tag-japanese">
+
+    <a class="post-card-image-link" href="/kokoro-tts-for-anki/">
+
+        <img class="post-card-image" srcset="https://images.unsplash.com/photo-1734779205618-30ee0220f56f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDF8fHx8fHx8fDE3NDA1NTY4NDh8&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=300 300w,
+                    https://images.unsplash.com/photo-1734779205618-30ee0220f56f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDF8fHx8fHx8fDE3NDA1NTY4NDh8&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=600 600w,
+                    https://images.unsplash.com/photo-1734779205618-30ee0220f56f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDF8fHx8fHx8fDE3NDA1NTY4NDh8&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1000 1000w,
+                    https://images.unsplash.com/photo-1734779205618-30ee0220f56f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDF8fHx8fHx8fDE3NDA1NTY4NDh8&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=2000 2000w" sizes="(max-width: 1000px) 400px, 800px" src="https://images.unsplash.com/photo-1734779205618-30ee0220f56f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDF8fHx8fHx8fDE3NDA1NTY4NDh8&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=600" alt="Kokoro TTS for Anki" loading="lazy">
+
+
+    </a>
+
+    <div class="post-card-content">
+
+        <a class="post-card-content-link" href="/kokoro-tts-for-anki/">
+            <header class="post-card-header">
+                <div class="post-card-tags">
+                        <span class="post-card-primary-tag">japanese</span>
+                </div>
+                <h2 class="post-card-title">
+                    Kokoro TTS for Anki
+                </h2>
+            </header>
+                <div class="post-card-excerpt">When I make Anki flashcards from movies or TV shows I can easily just rip the sentence audio from the show.
+
+But, for manga? News articles? Random words I found in the wild? No audio here!
+
+I made this project to generate audio for Anki flashcards without native audio using</div>
+        </a>
+
+        <footer class="post-card-meta">
+            <time class="post-card-meta-date" datetime="2025-02-26">26 Feb 2025</time>
+                <span class="post-card-meta-length">1 min read</span>
+                
+        </footer>
+
+    </div>
+
+</article>
+            
+<article class="post-card post tag-ai">
+
+    <a class="post-card-image-link" href="/tip-use-openrouter-instead-of-openai-anthropic-deepseek/">
+
+        <img class="post-card-image" srcset="https://images.unsplash.com/photo-1739047855450-27615bc98bc5?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDR8fHx8fHx8fDE3NDAxNzQ1MjN8&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=300 300w,
+                    https://images.unsplash.com/photo-1739047855450-27615bc98bc5?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDR8fHx8fHx8fDE3NDAxNzQ1MjN8&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=600 600w,
+                    https://images.unsplash.com/photo-1739047855450-27615bc98bc5?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDR8fHx8fHx8fDE3NDAxNzQ1MjN8&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1000 1000w,
+                    https://images.unsplash.com/photo-1739047855450-27615bc98bc5?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDR8fHx8fHx8fDE3NDAxNzQ1MjN8&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=2000 2000w" sizes="(max-width: 1000px) 400px, 800px" src="https://images.unsplash.com/photo-1739047855450-27615bc98bc5?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDR8fHx8fHx8fDE3NDAxNzQ1MjN8&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=600" alt="Tip: Use OpenRouter instead of OpenAI / Anthropic / Deepseek" loading="lazy">
+
+
+    </a>
+
+    <div class="post-card-content">
+
+        <a class="post-card-content-link" href="/tip-use-openrouter-instead-of-openai-anthropic-deepseek/">
+            <header class="post-card-header">
+                <div class="post-card-tags">
+                        <span class="post-card-primary-tag">AI</span>
+                </div>
+                <h2 class="post-card-title">
+                    Tip: Use OpenRouter instead of OpenAI / Anthropic / Deepseek
+                </h2>
+            </header>
+                <div class="post-card-excerpt">I recently had to make API calls to Anthropic and I noticed I was getting rate limited pretty hard.
+
+Turns out, they rate limit you until they "trust you".
+
+Even if I did pay them £10....
+
+I then Discovered OpenRouter
+
+OpenRouterA unified interface for LLMs. Find the best</div>
+        </a>
+
+        <footer class="post-card-meta">
+            <time class="post-card-meta-date" datetime="2025-02-21">21 Feb 2025</time>
+                <span class="post-card-meta-length">1 min read</span>
+                
+        </footer>
+
+    </div>
+
+</article>
+            
+<article class="post-card post tag-japan">
+
+    <a class="post-card-image-link" href="/japan-working-holiday-documents/">
+
+        <img class="post-card-image" srcset="https://images.unsplash.com/photo-1524413840807-0c3cb6fa808d?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8c2VhcmNofDF8fGphcGFufGVufDB8fHx8MTczMzA2ODU0NHww&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=300 300w,
+                    https://images.unsplash.com/photo-1524413840807-0c3cb6fa808d?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8c2VhcmNofDF8fGphcGFufGVufDB8fHx8MTczMzA2ODU0NHww&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=600 600w,
+                    https://images.unsplash.com/photo-1524413840807-0c3cb6fa808d?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8c2VhcmNofDF8fGphcGFufGVufDB8fHx8MTczMzA2ODU0NHww&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1000 1000w,
+                    https://images.unsplash.com/photo-1524413840807-0c3cb6fa808d?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8c2VhcmNofDF8fGphcGFufGVufDB8fHx8MTczMzA2ODU0NHww&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=2000 2000w" sizes="(max-width: 1000px) 400px, 800px" src="https://images.unsplash.com/photo-1524413840807-0c3cb6fa808d?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8c2VhcmNofDF8fGphcGFufGVufDB8fHx8MTczMzA2ODU0NHww&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=600" alt="Japan Working Holiday Documents" loading="lazy">
+
+
+    </a>
+
+    <div class="post-card-content">
+
+        <a class="post-card-content-link" href="/japan-working-holiday-documents/">
+            <header class="post-card-header">
+                <div class="post-card-tags">
+                        <span class="post-card-primary-tag">japan</span>
+                </div>
+                <h2 class="post-card-title">
+                    Japan Working Holiday Documents
+                </h2>
+            </header>
+                <div class="post-card-excerpt">These are the 2 documents I used to get a Working Holiday Visa to Japan as a trans woman in 2024.
+
+Want to see my other Japanese posts? See this tag on my blog:
+
+japanese - Skerritt.blogSkerritt.blog
+
+You can watch my video here:
+
+https://youtu.be/pxlCic908FU
+
+
+Itinerary</div>
+        </a>
+
+        <footer class="post-card-meta">
+            <time class="post-card-meta-date" datetime="2025-02-01">01 Feb 2025</time>
+                <span class="post-card-meta-length">5 min read</span>
+                
+        </footer>
+
+    </div>
+
+</article>
+            
+<article class="post-card post tag-anki">
+
+    <a class="post-card-image-link" href="/memorising-leetcode-by-using-anki-as-a-scheduler/">
+
+        <img class="post-card-image" srcset="https://images.unsplash.com/photo-1736890722772-97aab67379a1?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDExfHx8fHx8fHwxNzM4MzUzOTE2fA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=300 300w,
+                    https://images.unsplash.com/photo-1736890722772-97aab67379a1?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDExfHx8fHx8fHwxNzM4MzUzOTE2fA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=600 600w,
+                    https://images.unsplash.com/photo-1736890722772-97aab67379a1?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDExfHx8fHx8fHwxNzM4MzUzOTE2fA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1000 1000w,
+                    https://images.unsplash.com/photo-1736890722772-97aab67379a1?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDExfHx8fHx8fHwxNzM4MzUzOTE2fA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=2000 2000w" sizes="(max-width: 1000px) 400px, 800px" src="https://images.unsplash.com/photo-1736890722772-97aab67379a1?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8YWxsfDExfHx8fHx8fHwxNzM4MzUzOTE2fA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=600" alt="Memorising Leetcode by using Anki as a Scheduler" loading="lazy">
+
+
+    </a>
+
+    <div class="post-card-content">
+
+        <a class="post-card-content-link" href="/memorising-leetcode-by-using-anki-as-a-scheduler/">
+            <header class="post-card-header">
+                <div class="post-card-tags">
+                        <span class="post-card-primary-tag">anki</span>
+                </div>
+                <h2 class="post-card-title">
+                    Memorising Leetcode by using Anki as a Scheduler
+                </h2>
+            </header>
+                <div class="post-card-excerpt">Problem: When you have to do Leetcode, you often cram it all in a few weeks before your coding interivew.
+
+It sucks. The interviewer knows it sucks. But there's nothing that can be done.
+
+Everyone knows cramming leads to worse retention, and you do not really "grok&amp;</div>
+        </a>
+
+        <footer class="post-card-meta">
+            <time class="post-card-meta-date" datetime="2025-01-31">31 Jan 2025</time>
+                <span class="post-card-meta-length">5 min read</span>
+                
+        </footer>
+
+    </div>
+
+</article>
+            
+<article class="post-card post tag-self-hosted">
+
+    <a class="post-card-image-link" href="/over-engineering-my-backups-2/">
+
+        <img class="post-card-image" srcset="https://images.unsplash.com/photo-1611153730462-e84a16b8c6e1?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8c2VhcmNofDJ8fHNhbmRpc2t8ZW58MHx8fHwxNzMwNzMwNDE1fDA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=300 300w,
+                    https://images.unsplash.com/photo-1611153730462-e84a16b8c6e1?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8c2VhcmNofDJ8fHNhbmRpc2t8ZW58MHx8fHwxNzMwNzMwNDE1fDA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=600 600w,
+                    https://images.unsplash.com/photo-1611153730462-e84a16b8c6e1?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8c2VhcmNofDJ8fHNhbmRpc2t8ZW58MHx8fHwxNzMwNzMwNDE1fDA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1000 1000w,
+                    https://images.unsplash.com/photo-1611153730462-e84a16b8c6e1?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8c2VhcmNofDJ8fHNhbmRpc2t8ZW58MHx8fHwxNzMwNzMwNDE1fDA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=2000 2000w" sizes="(max-width: 1000px) 400px, 800px" src="https://images.unsplash.com/photo-1611153730462-e84a16b8c6e1?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8c2VhcmNofDJ8fHNhbmRpc2t8ZW58MHx8fHwxNzMwNzMwNDE1fDA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=600" alt="Over-engineering my backups" loading="lazy">
+
+
+    </a>
+
+    <div class="post-card-content">
+
+        <a class="post-card-content-link" href="/over-engineering-my-backups-2/">
+            <header class="post-card-header">
+                <div class="post-card-tags">
+                        <span class="post-card-primary-tag">self-hosted</span>
+                </div>
+                <h2 class="post-card-title">
+                    Over-engineering my backups
+                </h2>
+            </header>
+                <div class="post-card-excerpt">2 years ago I wrote about how I over-complicated my document storage system:
+
+Over-engineering my document storage system with Paperless-ngxI think the first realisation that I was getting old was when I implemented a system to store physical + digital documents and was excited about it. My previous document system looked</div>
+        </a>
+
+        <footer class="post-card-meta">
+            <time class="post-card-meta-date" datetime="2024-11-19">19 Nov 2024</time>
+                <span class="post-card-meta-length">34 min read</span>
+                <span>1 comment</span>
+        </footer>
+
+    </div>
+
+</article>
+    </div>
+
+    <nav class="pagination">
+    <span class="page-number">Page 1 of 7</span>
+        <a class="older-posts" href="/page/2/">Older Posts <span aria-hidden="true">→</span></a>
+</nav>
+
+
+</div>
+</main>
+
+    </div>
+
+    <footer class="site-footer outer">
+        <div class="inner">
+            <section class="copyright"><a href="https://skerritt.blog">Skerritt.blog</a> © 2025</section>
+            <nav class="site-footer-nav">
+                <ul class="nav">
+    <li class="nav-sign-up nav-current"><a href="#/portal/">Sign up</a></li>
+</ul>
+
+            </nav>
+            <div class="gh-powered-by"><a href="https://ghost.org/" target="_blank" rel="noopener">Powered by Ghost</a></div>
+        </div>
+    </footer>
+
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous">
+</script>
+<script src="https://skerritt.blog/assets/built/casper.js?v=d8385aafbd"></script>
+<script>
+$(document).ready(function () {
+    // Mobile Menu Trigger
+    $('.gh-burger').click(function () {
+        $('body').toggleClass('gh-head-open');
+    });
+    // FitVids - Makes video embeds responsive
+    $(".gh-content").fitVids();
+});
+</script>
+
+<script>document.addEventListener('DOMContentLoaded',function(){var contentElement=document.querySelector('.gh-content');if(contentElement){var asideElement=document.createElement('aside');asideElement.className='gh-sidebar';asideElement.innerHTML='<div class="gh-toc"></div>';var firstChildElement=contentElement.firstElementChild;if(firstChildElement){firstChildElement.insertAdjacentElement('beforebegin',asideElement)}else{contentElement.appendChild(asideElement)}tocbot.init({tocSelector:'.gh-toc',contentSelector:'.gh-content',headingSelector:'h1,h2,h3,h4',hasInnerContainers:true})}});</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.28.0/components/prism-core.min.js" integrity="sha512-9khQRAUBYEJDCDVP2yw3LRUQvjJ0Pjx0EShmaQjcHa6AXiOv6qHQu9lCAIR8O+/D8FtaCoJ2c0Tf9Xo7hYH01Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.28.0/plugins/autoloader/prism-autoloader.min.js" integrity="sha512-fTl/qcO1VgvKtOMApX2PdZzkziyr2stM65GYPLGuYMnuMm1z2JLJG6XVU7C/mR+E7xBUqCivykuhlzfqxXBXbg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+
+<ins class="adsbygoogle adsbygoogle-noablate" data-adsbygoogle-status="done" style="display: none !important;" data-ad-status="unfilled"><div id="aswift_0_host" style="border: none; height: 0px; width: 0px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block;"><iframe id="aswift_0" name="aswift_0" browsingtopics="true" style="left:0;position:absolute;top:0;border:0;width:undefinedpx;height:undefinedpx;min-height:auto;max-height:none;min-width:auto;max-width:none;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allow="attribution-reporting; run-ad-auction" src="https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-4204290842407309&amp;output=html&amp;adk=1812271804&amp;adf=3025194257&amp;lmt=1760472314&amp;plat=1%3A8%2C2%3A8%2C3%3A2162688%2C4%3A2162688%2C9%3A32776%2C16%3A8388608%2C17%3A32%2C24%3A32%2C25%3A32%2C30%3A1048576%2C32%3A32%2C41%3A32%2C42%3A32&amp;format=0x0&amp;url=https%3A%2F%2Fskerritt.blog%2F&amp;pra=5&amp;wgl=1&amp;aihb=0&amp;asro=0&amp;aifxl=29_18~30_19&amp;aiapm=0.1542&amp;aiapmd=0.1423&amp;aiapmi=0.16&amp;aiapmid=1&amp;aiact=0.5423&amp;aiactd=0.7&amp;aicct=0.7&amp;aicctd=0.5799&amp;ailct=0.5849&amp;ailctd=0.65&amp;aimart=4&amp;aimartd=4&amp;uach=WyJMaW51eCIsIiIsIiIsIiIsIiIsbnVsbCwwLG51bGwsIiIsbnVsbCwwXQ..&amp;abgtt=6&amp;dt=1760472312924&amp;bpp=60&amp;bdt=2180&amp;idt=1258&amp;shv=r20251009&amp;mjsv=m202510090101&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;cookie_enabled=1&amp;eoidce=1&amp;nras=1&amp;correlator=5097120437344&amp;frm=20&amp;pv=2&amp;u_tz=180&amp;u_his=2&amp;u_h=600&amp;u_w=800&amp;u_ah=600&amp;u_aw=800&amp;u_cd=24&amp;u_sd=1&amp;dmc=8&amp;adx=-12245933&amp;ady=-12245933&amp;biw=765&amp;bih=441&amp;scr_x=0&amp;scr_y=0&amp;eid=31095210%2C31095215%2C31095218%2C95372729%2C95373012%2C95374047&amp;oid=2&amp;pvsid=2375763101523953&amp;tmod=19585778&amp;uas=0&amp;nvt=1&amp;fsapi=1&amp;fc=1920&amp;brdim=10%2C10%2C10%2C10%2C800%2C0%2C780%2C580%2C780%2C441&amp;vis=1&amp;rsz=%7C%7Cs%7C&amp;abl=NS&amp;fu=32768&amp;bc=31&amp;bz=1&amp;td=1&amp;tdf=2&amp;psd=W251bGwsbnVsbCxudWxsLDNd&amp;nt=1&amp;pgls=CAA.&amp;ifi=1&amp;uci=a!1&amp;fsb=1&amp;dtd=1401" data-google-container-id="a!1" tabindex="0" title="Advertisement" aria-label="Advertisement" data-load-complete="true"></iframe></div></ins><div id="ghost-portal-root" data-testid="portal-root"><iframe srcdoc="&lt;!DOCTYPE html&gt;" data-testid="portal-trigger-frame" title="portal-trigger" frameborder="0" dir="ltr" class="gh-portal-triggerbtn-iframe" style="z-index: 3999998; position: fixed; bottom: 0px; right: 0px; width: 255px; max-width: 500px; height: 98px; animation: 250ms ease 0s 1 normal none running animation-bhegco; transition: opacity 0.3s; overflow: hidden;"></iframe></div><div id="sodo-search-root"></div><iframe src="https://www.google.com/recaptcha/api2/aframe" width="0" height="0" style="display: none;"></iframe></body><iframe id="google_esf" name="google_esf" src="https://googleads.g.doubleclick.net/pagead/html/r20251009/r20190131/zrt_lookup_fy2021.html" style="display: none;"></iframe></html>
